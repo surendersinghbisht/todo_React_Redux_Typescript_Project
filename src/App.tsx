@@ -11,7 +11,7 @@ const App: FC =()=> {
     <div className="px-10 py-5">
        <div className='space-x-4 bg-gray-400'>
         <Link to='/' className='font-bold'>Todo</Link>
-         <Link to='user' className='font-bold'>user</Link>
+         <Link to='user' className='font-bold'>users</Link>
        </div>
       <Routes>
        <Route index element={<TodoPage />}/>
