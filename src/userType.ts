@@ -1,4 +1,4 @@
-export type Todo = {
+export type User = {
     id: number;
     name: string;
    
